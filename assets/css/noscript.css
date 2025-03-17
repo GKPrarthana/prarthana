@@ -1,0 +1,64 @@
+/*
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Spotlights */
+
+	.spotlights > section > .image:before {
+		opacity: 0 !important;
+	}
+
+	.spotlights > section > .content > .inner {
+		-moz-transform: none !important;
+		-webkit-transform: none !important;
+		-ms-transform: none !important;
+		transform: none !important;
+		opacity: 1 !important;
+	}
+
+/* Wrapper */
+
+	.wrapper > .inner {
+		opacity: 1 !important;
+		-moz-transform: none !important;
+		-webkit-transform: none !important;
+		-ms-transform: none !important;
+		transform: none !important;
+	}
+
+/* Sidebar */
+
+	#sidebar > .inner {
+		opacity: 1 !important;
+	}
+
+	#sidebar nav > ul > li {
+		-moz-transform: none !important;
+		-webkit-transform: none !important;
+		-ms-transform: none !important;
+		transform: none !important;
+		opacity: 1 !important;
+	}
+
+/* Make lighter text */
+.lighter-text {
+    font-weight: 300; /* Light font weight */
+    margin: 5px 0; /* Reduce vertical spacing */
+    color: #ccc; /* Optional: Lighter color if you want */
+}
+
+/* Make name stand out */
+.main-name {
+    font-weight: 700; /* Bold */
+    margin: 5px 0; /* Reduce vertical spacing */
+    color: #fff; /* Adjust color if needed */
+    font-size: 3rem; /* Adjust size to be larger */
+}
+
+/* Optional: Adjust intro section padding */
+#intro .inner {
+    padding: 2rem; /* Adjust padding if you want more/less space inside */
+    text-align: center;
+}
