@@ -263,7 +263,7 @@ export function Hero() {
                 Get in Touch
               </motion.a>
               <motion.a
-                href="/resume.pdf"
+                href={`${import.meta.env.BASE_URL}Prarthana_Sewmini_Resume.pdf`}
                 download="prarthana-resume.pdf"
                 className="inline-flex items-center justify-center gap-2 px-6 py-4 border border-accent/40 text-accent rounded-xl font-semibold hover:bg-accent/10 transition-all focus-ring"
                 whileHover={{ scale: 1.03, y: -2 }}
@@ -300,7 +300,7 @@ export function Hero() {
               {/* Photo */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-[370px] lg:h-[370px] rounded-full overflow-hidden border-2 border-accent/30 shadow-2xl shadow-accent/10">
                 <img
-                  src="/portrait1.png"
+                  src={`${import.meta.env.BASE_URL}portrait1.png`}
                   alt="Prarthana Sewmini"
                   className="w-full h-full object-cover"
                 />
